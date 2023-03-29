@@ -4,6 +4,8 @@
 
 Data2Vec is self-supervised highly-efficient general framework to generate representations for vision, speech and text. This repository contains ready-to train [data2vec](https://github.com/facebookresearch/fairseq/tree/main/examples/data2vec) ([arXiv](https://arxiv.org/abs/2202.03555)) implementation containing helper scripts to load, process & train the data.
 
+If you want to understand Data2Vec in detail, check out [this blog on Paperspace](https://blog.paperspace.com/data2vec/).
+
 ## Run in a Free GPU powered Gradient Notebook
 
 [![Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/gradient-ai/data2vec-pytorch?machine=Free-GPU)

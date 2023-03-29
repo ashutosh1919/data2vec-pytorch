@@ -2,8 +2,8 @@
 
 # Run this script to fetch all the dataset
 
-# wget https://image-net.org/data/ILSVRC/2012/ILSVRC2012_img_train.tar
-# wget https://image-net.org/data/ILSVRC/2012/ILSVRC2012_img_val.tar
+wget https://image-net.org/data/ILSVRC/2012/ILSVRC2012_img_train.tar
+wget https://image-net.org/data/ILSVRC/2012/ILSVRC2012_img_val.tar
 
 train_tar="${1:-ILSVRC2012_img_train.tar}"
 val_tar="${2:-ILSVRC2012_img_val.tar}"

@@ -1,11 +1,12 @@
 # Data2Vec 2.0
 
+[Check out the original repo!](https://github.com/ashutosh1919/data2vec-pytorch)
+
 Data2Vec is self-supervised highly-efficient general framework to generate representations for vision, speech and text. This repository contains ready-to train [data2vec](https://github.com/facebookresearch/fairseq/tree/main/examples/data2vec) ([arXiv](https://arxiv.org/abs/2202.03555)) implementation containing helper scripts to load, process & train the data.
 
-
 ## Run in a Free GPU powered Gradient Notebook
-[![Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/ashutosh1919/data2vec-pytorch?machine=Free-GPU)
 
+[![Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/gradient-ai/data2vec-pytorch?machine=Free-GPU)
 
 ## Setup
 
@@ -40,7 +41,6 @@ bash scripts/train_data2vec_multi_speech.sh
 
 Note that you may want to change some of the arguments in these task scripts based on your system. Since we have single GPU, the arg `distributed_training.distributed_world_size=1` for us which you can change based on your requirement.
 
-
 ## Original Code
 
 `data2vec` directory contains the original code taken from [fairseq](https://github.com/facebookresearch/fairseq/tree/main/examples/data2vec) repository. The code present in this directory is exactly same as the original code. We have only made changes in some of the config files corresponding to the tasks.
@@ -48,6 +48,7 @@ Note that you may want to change some of the arguments in these task scripts bas
 ## Reference
 
 data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language -- https://arxiv.org/abs/2202.03555
+
 ```
 @article{DBLP:journals/corr/abs-2202-03555,
   author    = {Alexei Baevski and
@@ -65,9 +66,10 @@ data2vec: A General Framework for Self-supervised Learning in Speech, Vision and
 ```
 
 Efficient Self-supervised Learning with Contextualized Target Representations for Vision, Speech and Language -- https://arxiv.org/abs/2212.07525
+
 ```
 @misc{baevski2022efficient,
-      title={Efficient Self-supervised Learning with Contextualized Target Representations for Vision, Speech and Language}, 
+      title={Efficient Self-supervised Learning with Contextualized Target Representations for Vision, Speech and Language},
       author={Alexei Baevski and Arun Babu and Wei-Ning Hsu and Michael Auli},
       year={2022},
       eprint={2212.07525},
